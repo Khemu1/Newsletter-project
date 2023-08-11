@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+body {
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto-Regular";
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    font-size: 16px;
+}
+.box {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: auto;
+    border: 0px white solid;
+    border-radius: 5%;
+    height: 500px;
+    width: 750px;
+    justify-content: space-around;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    width: 79%;
+    gap: 14px;
+    margin-left: 10px;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    gap: 14px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+h1 {
+    font-weight: bold;
+    font-family: "Roboto-Bold";
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 14px;
+}
+.features div {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+.address {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 10px;
+}
+input {
+    border: 1px rgb(131, 128, 128, 0.5) solid;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+#mail {
+    width: 280px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#submit {
+    background: hsl(235, 18%, 26%);
+    color: white;
+    font-weight: bold;
+    border: 0px white solid;
+    padding: 10px;
+    cursor: pointer;
+    width: 280px;
+}
+#submit:hover {
+    background: linear-gradient(0.25turn, hsl(4, 100%, 67%), hsl(7, 90%, 48%));
+}
+
+p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+.error {
+    font-size: 10;
+    color: red;
+    display: none;
+}
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+#pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-right: 0px;
+}
